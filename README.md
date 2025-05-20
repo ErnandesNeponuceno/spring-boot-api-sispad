@@ -64,7 +64,8 @@ com.sistema.sispad
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/ErnandesNeponuceno/sispad.git
+git clone https://github.com/ErnandesNeponuceno/spring-boot-api-sispad.git
+
 ```
 
 2. Configure o `application.properties`:
