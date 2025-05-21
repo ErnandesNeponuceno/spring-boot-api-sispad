@@ -19,10 +19,9 @@ Este projeto é uma API REST desenvolvida em **Java** com **Spring Boot**, volta
   - Verificação de nomes repetidos no momento da criação e atualização.
 
 - **Tratamento de Erros**
-  - Requisições inválidas (400).
-  - Entidade não encontrada (404).
-  - Conflitos de integridade (409).
-  - Erros inesperados (500).
+  - Erros de validação (400).
+  - Entidades não encontradas (404).
+  - Erros internos do servidor (500).
 
 ---
 
@@ -64,7 +63,8 @@ com.sistema.sispad
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/ErnandesNeponuceno/sispad.git
+git clone https://github.com/ErnandesNeponuceno/spring-boot-api-sispad.git
+
 ```
 
 2. Configure o `application.properties`:
